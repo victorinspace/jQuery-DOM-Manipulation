@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-	$('.header').on('click', function() {
+	$('.title').on('click', function() {
 
-		$('.words').removeClass('active')
-		$(this).find(' + .words').addClass('active')
+		$('.text').removeClass('active')
+		$(this).find(' + .text').addClass('active')
 
 	})
 
