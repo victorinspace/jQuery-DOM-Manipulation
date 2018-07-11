@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
 	$('.title').on('click', function() {
 
 		$('.text').removeClass('active')
@@ -8,3 +9,5 @@ $(document).ready(function() {
 	})
 
 })
+
+
